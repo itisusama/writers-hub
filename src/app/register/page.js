@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Client, Databases } from 'appwrite';
 import bcrypt from 'bcryptjs';
 
-const page = () => {
+const Page = () => {
   const [userName, setUserName] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
@@ -96,4 +96,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
