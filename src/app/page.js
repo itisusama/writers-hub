@@ -1,5 +1,4 @@
 'use client';
-
 import { useState } from 'react';
 import { Client, Databases, Query } from 'appwrite';
 import bcrypt from 'bcryptjs';
