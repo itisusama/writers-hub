@@ -22,15 +22,15 @@ const Dashboard = () => {
       <header className="w-full bg-red-600 text-white p-4 shadow-md">
         <h1 className="text-lg font-semibold">Welcome {username}</h1>
         {/* Logout Button */}
-  <button
-    onClick={() => {
-      localStorage.removeItem('userSession'); // Remove session
-      router.push('/'); // Redirect to home
-    }}
-    className="w-full text-left p-2 mb-4 bg-red-600 text-white rounded hover:bg-red-700 focus:ring-2 focus:ring-red-500 focus:outline-none"
-  >
-    Logout
-  </button>
+        <button
+          onClick={() => {
+            localStorage.removeItem('userSession'); // Remove session
+            router.push('/'); // Redirect to home
+          }}
+          className="w-full text-left p-2 mb-4 bg-red-600 text-white rounded hover:bg-red-700 focus:ring-2 focus:ring-red-500 focus:outline-none"
+        >
+          Logout
+        </button>
       </header>
 
       {/* Main Layout */}
